@@ -5,7 +5,7 @@ Translate-exs is a terminal translator built entirely in Elixir. This project us
 
 ## Screenshots
 
-![Example translation](hhttps://github.com/BrookJeynes/translate-exs/tree/master/assest/example.png)
+![Example translation](https://github.com/BrookJeynes/translation-exs/blob/main/assets/example.png)
 
 
 ## Features
