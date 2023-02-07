@@ -1,4 +1,4 @@
-# Translate-exs - Text translator within your terminal
+# Translate - Text translator within your terminal
 
 Translate-exs is a terminal translator built entirely in Elixir. This project uses [Azure Translator](https://azure.microsoft.com/en-us/products/cognitive-services/translator) to handle the translations, this means you will need to create an account and use your respective tokens to run the application. 
 
