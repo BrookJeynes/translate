@@ -1,21 +1,44 @@
-# TranslationExs
+# Translate-exs - Text translator within your terminal
 
-**TODO: Add description**
+Translate-exs is a terminal translator built entirely in Elixir. This project uses [Azure Translator](https://azure.microsoft.com/en-us/products/cognitive-services/translator) to handle the translations, this means you will need to create an account and use your respective tokens to run the application. 
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `translation_exs` to your list of dependencies in `mix.exs`:
+## Screenshots
 
-```elixir
-def deps do
-  [
-    {:translation_exs, "~> 0.1.0"}
-  ]
-end
+![Example translation](hhttps://github.com/BrookJeynes/translate-exs/tree/master/assest/example.png)
+
+
+## Features
+
+- Translate to and from a variety of languages
+- Built within the terminal for easy access
+
+
+## Run Locally
+
+1. Clone the project
+
+```bash
+  git clone https://github.com/BrookJeynes/translate-exs
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/translation_exs>.
+2. Go to the project directory
 
+```bash
+  cd translate-exs
+```
+
+3. Set up environment variables
+```bash
+  cat .env
+  echo "SUBSCRIPTION_KEY=<key-here>\nSUBSCRIPTION_REGION=<region-here>" > .env
+```
+
+4. You will need to have python 2.7 installed and accessable via `python`.
+  - MacOS instructions: https://stackoverflow.com/a/67274521/21000191
+
+5. Start the application
+
+```bash
+  mix run lib/translate_exs.ex --help 
+```
